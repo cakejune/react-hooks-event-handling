@@ -3,8 +3,12 @@ import Tickler from "./Tickler";
 import MultiButton from "./MultiButton";
 import ChangeItUp from "./ChangeItUp";
 import Login from "./Login";
+import Clickable from "./Clickable";
 
 function App() {
+  function handleClick() {
+    console.log("click");
+  }
   return (
     <div>
       <h3>onClick</h3>
